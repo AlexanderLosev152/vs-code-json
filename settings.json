@@ -1,0 +1,178 @@
+{
+	// Автоматически форматировать код при сохранении файла
+	"editor.formatOnSave": true,
+
+	// Установка цветовой темы "Kanagawa Wave"
+	"workbench.colorTheme": "Atom Material Theme",
+
+	// Настройка чувствительности быстрой прокрутки для списков
+	"workbench.list.fastScrollSensitivity": 0,
+	// Максимальное количество элементов при "липкой" прокрутке в дереве
+	"workbench.tree.stickyScrollMaxItemCount": 1,
+	// Чувствительность быстрой прокрутки в терминале
+	"terminal.integrated.fastScrollSensitivity": 0,
+	// Размер шрифта редактора
+	"editor.fontSize": 20,
+
+	// Отключить кнопки управления layout
+	"workbench.layoutControl.enabled": false,
+	// Отключить центр команд чата
+	"chat.commandCenter.enabled": false,
+	// Отключить режим предпросмотра при открытии файлов
+	"workbench.editor.enablePreview": false,
+	// Установка шрифта JetBrains Mono для редактора
+	"editor.fontFamily": "'JetBrains Mono'",
+	// Установка шрифта JetBrains Mono для CodeLens
+	"editor.codeLensFontFamily": "'JetBrains Mono'",
+	// Установка шрифта JetBrains Mono для подсказок в коде
+	"editor.inlayHints.fontFamily": "'JetBrains Mono'",
+	// Установка шрифта JetBrains Mono для консоли отладки
+	"debug.console.fontFamily": "'JetBrains Mono'",
+	// Скрыть предупреждение об изменении сочетаний клавиш npm
+	"npm.keybindingsChangedWarningShown": true,
+
+	// Отключить подтверждение при перетаскивании и удалении
+	"explorer.confirmDragAndDrop": false,
+	"explorer.confirmDelete": false,
+
+	// Разместить боковую панель справа
+	"workbench.sideBar.location": "left",
+
+	"scm.diffDecorations": "none",
+
+	"git.decorations.enabled": false,
+
+	// Настройки скроллинга и визуальных элементов редактора
+	"editor.fastScrollSensitivity": 0, // Чувствительность быстрой прокрутки
+	"editor.scrollbar.horizontal": "hidden", // Скрыть горизонтальную полосу прокрутки
+	"editor.scrollbar.vertical": "hidden", // Скрыть вертикальную полосу прокрутки
+	"editor.minimap.enabled": false, // Отключить мини-карту
+	"editor.matchBrackets": "never", // Не подсвечивать парные скобки
+	"editor.occurrencesHighlight": "off", // Отключить подсветку вхождений
+	"editor.scrollBeyondLastColumn": 0, // Запретить прокрутку за последний столбец
+	"editor.overviewRulerBorder": false, // Отключить границу обзорной линейки
+	"editor.hideCursorInOverviewRuler": true, // Скрыть курсор в обзорной линейке
+	"editor.stickyScroll.enabled": false, // Отключить "липкую" прокрутку
+	"workbench.activityBar.location": "hidden", // Скрыть панель активности
+	"window.menuBarVisibility": "compact", // Компактное отображение строки меню
+	"window.commandCenter": false, // Отключить центр команд
+	"workbench.statusBar.visible": false, // Скрыть строку состояния
+
+	// Настройки табуляции
+	"editor.tabSize": 2, // Размер табуляции - 4 пробела
+	"editor.detectIndentation": false, // Не определять отступ автоматически
+
+	// Настройка модификатора для мультикурсора (Alt вместо Ctrl)
+	"editor.multiCursorModifier": "alt",
+
+	// Отключить советы и подсказки
+	"workbench.tips.enabled": false,
+
+	// Добавлять пустую строку в конец файла при сохранении
+	"files.insertFinalNewline": true,
+
+	// Скрыть значки сворачивания кода
+	"editor.showFoldingControls": "never",
+
+	// Не отображать пробелы и табы
+	"editor.renderWhitespace": "none",
+
+	// Отключить подсветку текущей строки
+	"editor.renderLineHighlight": "none",
+
+	// Отключить вертикальные линии отступов в редакторе
+	"editor.guides.indentation": false,
+
+	// Отключить вертикальные линии в дереве файлов
+	"workbench.tree.renderIndentGuides": "none",
+
+	// Отключить "липкие" заголовки в дереве файлов
+	"workbench.tree.enableStickyScroll": false,
+
+	// Автосохранение файлов с задержкой
+	"files.autoSave": "afterDelay",
+
+	// Установить размер отступа (в пикселях)
+	"workbench.tree.indent": 20,
+
+	// Отключить компактные папки (показывать всегда развернутыми)
+	"explorer.compactFolders": false,
+
+	// Показывать только имя папки проекта в заголовке окна
+	"window.title": "${folderName}",
+
+	"tabnine.experimentalAutoImports": true,
+
+	"editor.insertSpaces": false, // Использовать табы вместо пробелов
+
+	// Настройки Prettier
+	"prettier.singleQuote": true, // Одинарные кавычки
+	"prettier.useTabs": true, // Табы вместо пробелов
+	"prettier.tabWidth": 2, // Ширина таба (2 символа)
+	"prettier.semi": true, // Точки с запятой в конце строк
+	"prettier.trailingComma": "none", // Без висячих запятых
+
+	// Полностью отключает хлебные крошки
+	"breadcrumbs.filePath": "last",
+
+	// Плавное движение курсора
+	"editor.cursorSmoothCaretAnimation": "on",
+
+	// Отключает всплывающие подсказки при наведении
+	"editor.hover.enabled": false,
+
+	// Отключает запрос доверия к рабочей области
+	"security.workspace.trust.enabled": false,
+
+	// Не добавляет пробел после `//` в комментариях
+	"editor.comments.insertSpace": false,
+
+	// При перемещении файлов TypeScript автоматически обновлять импорты
+	"typescript.updateImportsOnFileMove.enabled": "always",
+
+	"workbench.colorCustomizations": {
+		//"list.focusBackground": "#00000000", // Прозрачный фон при фокусе
+		//"list.hoverBackground": "#00000000", // Прозрачный фон при наведении
+		//"list.inactiveSelectionBackground": "#00000000", // Прозрачный фон неактивного выделения
+		//"list.inactiveFocusBackground": "#00000000", // Прозрачный фон неактивного фокуса
+		//"list.focusOutline": "#00000000",
+		"tab.activeBorder": "#ff0202"
+		//"list.activeSelectionBackground": "#00000000", // Прозрачный фон
+		//"list.activeSelectionForeground": "#ff0000", // Красный текст
+		//"list.activeSelectionOutline": "#ff0000" // Красная рамка
+	},
+	"git.openRepositoryInParentFolders": "always",
+	"emmet.includeLanguages": {
+		"javascript": "javascriptreact"
+	},
+
+	// отключаем breadcrumbs
+	"breadcrumbs.icons": false,
+	"breadcrumbs.showArrays": false,
+	"breadcrumbs.showBooleans": false,
+	"breadcrumbs.showClasses": false,
+	"breadcrumbs.showConstants": false,
+	"breadcrumbs.showConstructors": false,
+	"breadcrumbs.showEnumMembers": false,
+	"breadcrumbs.showEnums": false,
+	"breadcrumbs.showEvents": false,
+	"breadcrumbs.showFields": false,
+	"breadcrumbs.showFiles": false,
+	"breadcrumbs.showFunctions": false,
+	"breadcrumbs.showInterfaces": false,
+	"breadcrumbs.showKeys": false,
+	"breadcrumbs.showMethods": false,
+	"breadcrumbs.showModules": false,
+	"breadcrumbs.showNamespaces": false,
+	"breadcrumbs.showNull": false,
+	"breadcrumbs.showNumbers": false,
+	"breadcrumbs.showObjects": false,
+	"breadcrumbs.showOperators": false,
+	"breadcrumbs.showPackages": false,
+	"breadcrumbs.showProperties": false,
+	"breadcrumbs.showStrings": false,
+	"breadcrumbs.showStructs": false,
+	"breadcrumbs.showTypeParameters": false,
+	"breadcrumbs.showVariables": false,
+	"notebook.breadcrumbs.showCodeCells": false
+}
